@@ -5,16 +5,13 @@ Descripción:
 En el proyecto se desarrolla una clase Tensor capaz de manejar datos multidimensionales mediante un arreglo lineal en memoria. Tiene operaciones básicas de manipulación de dimensiones y generación de datos.
 
 Funcionalidades: 
-reshape, view (sin copia de memoria), unsqueeze, concat, arange, generación de valores aleatorios
+construcción con shape y values, generación de tensores (zeros, ones, random, arange), cambio de forma con view, inserción de dimensión con unsqueeze, concatenación con concat, operaciones (suma, resta, multiplicación elemento a elemento, multiplicación por escalar), funciones amigas (dot, matmul), transformaciones (ReLu, Sigmoid)
 
 Tecnologías: C++, Git y Github
 
 Compilación y ejecución:
 
 Compilación: g++ main.cpp -o main
-
-Ejecución: Para Windows-> main.exe, para Linux/macOS->
-./main
 
 Comandos principales:
 Tensor({dimensiones})-> crea un tensor indicando el tamaño en cada dimensión.
