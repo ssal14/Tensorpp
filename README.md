@@ -9,5 +9,19 @@ reshape, view (sin copia de memoria), unsqueeze, concat, arange, generación de 
 
 Tecnologías: C++, Git y Github
 
+Compilación y ejecución:
+
+Compilación: g++ main.cpp -o main
+
+Ejecución: Para Windows-> main.exe, para Linux/macOS->
+./main
+
+Comandos principales:
+Tensor({dimensiones})-> crea un tensor indicando el tamaño en cada dimensión.
+t(i, j, ...) -> accede o modifica un elemento del tensor mediante índices.
+t.print() -> muestra el contenido del tensor en consola
+
+El programa controla errores como: índices fuera de rango, dimensiones inválidas. 
+
 Estudiantes: Alvarez Lovera Sandra Sofia, Davila Bazan Santiago Sebastian
 
